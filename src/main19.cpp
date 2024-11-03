@@ -2,7 +2,7 @@
 
 using namespace homework;
 int main() {
-    std::vector<char> book = readBook("../pg2701.txt");
+    std::vector<char> book = readBook("../IntroducingLogic.txt");
 
     std::vector<std::string> words = extractWords(book);
 
